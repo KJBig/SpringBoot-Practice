@@ -17,5 +17,6 @@
 # 실행마다 DB 초기화 방지하는 법.
 - application.yml
 <img width="240" alt="스크린샷 2023-09-01 오후 10 50 19" src="https://github.com/KJBig/SpringBoot-Practice/assets/101792740/a22f97ab-18fe-4752-9f1b-12768fea8d42">
+
 1. 최초 실행시 JPA Entity에 맞게 DB가 생성됨.
 2. 이후 ddl-auto를 create -> update로 변경. 혹은 ddl-auto를 삭제.
